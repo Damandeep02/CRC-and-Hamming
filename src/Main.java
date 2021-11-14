@@ -223,10 +223,10 @@ public class Main {
 
 
         int codeword[]=new int[8];
-        codeword[3]=(int)dataword.charAt(0)-48;
-        codeword[5]=(int)dataword.charAt(1)-48;
-        codeword[6]=(int)dataword.charAt(2)-48;
-        codeword[7]=(int)dataword.charAt(3)-48;
+        codeword[3]=(int)dataword.charAt(3)-48;
+        codeword[5]=(int)dataword.charAt(2)-48;
+        codeword[6]=(int)dataword.charAt(1)-48;
+        codeword[7]=(int)dataword.charAt(0)-48;
             if((codeword[3]+codeword[5]+codeword[7])%2==0) {
                 codeword[1]=0;
             }
